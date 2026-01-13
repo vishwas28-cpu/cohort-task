@@ -9,23 +9,24 @@ html, body {
   width: 100%;
 }
 
-main {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main section {
-  height: 50%;
-  width: 50%;
-  background-color: white;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main section h1 {
+.green {
+  padding: 20px 30px;
+  background-color: orange;
   color: black;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.blue {
+  padding: 20px 30px;
+  background-color: blue;
+  color: yellow;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 19px;
 }
