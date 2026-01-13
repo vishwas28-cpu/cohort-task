@@ -7,21 +7,25 @@
 html, body {
   height: 100%;
   width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
   background-color: black;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-
-h1 {
-  color: blue;
-}
-
-section {
+main section {
   height: 50%;
   width: 50%;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-}/*# sourceMappingURL=style.css.map */
+  flex-direction: column ;
+}
+main section h1 {
+  color: black;
+}
