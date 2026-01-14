@@ -13,10 +13,30 @@ main {
   height: 100%;
   width: 100%;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 main section {
   height: 100%;
   flex-grow: 1;
   background-color: rgb(248, 14, 14);
+  background-size: cover;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url(images/blackpanter.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(images/captainamerica.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(images/ironman.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(images/thor.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(images/deadpool.jpg);
 }
