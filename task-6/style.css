@@ -95,10 +95,10 @@ height: 100%;
 .box1 .box1btn{
     display: flex;
     padding: 40px 0px 15px 0px;
-    gap: 10px;
+    gap: 30px;
 }
 .imagebtn{
-    padding: 10px 25px;
+    padding: 10px 20px;
     border-radius: 50px;
     border: none;
      font-size: 13px;
@@ -109,19 +109,4 @@ height: 100%;
     padding-right: 5px;
     font-size: 13px;
     font-weight: 600;
-}
-.samebtn{
-    padding: 10px 15px;
-    border: none;
-    border-radius: 50px;
-}
-.box1 .popular-box{
-    width: 100%;
-}
-.box2{
-    width: 50%;
-    
-}
-.box2 video{
-    width:100%;
 }
