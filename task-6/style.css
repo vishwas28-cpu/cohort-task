@@ -110,3 +110,9 @@ height: 100%;
     font-size: 13px;
     font-weight: 600;
 }
+.samebtn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
