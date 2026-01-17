@@ -130,8 +130,15 @@ height: 100%;
     background-color: #ea4c89;
     color: white;
 }
-.box1 .popular-box{
+.popular-box{
+    display: flex;
     width: 100%;
+    padding-top: 15px;
+    align-items: center;
+
+}
+.popular-box h2{
+    font-size: 13px;
 }
 .box2{
     width: 50%;
