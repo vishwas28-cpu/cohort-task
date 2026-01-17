@@ -144,8 +144,9 @@ height: 100%;
 .popular-box h4{
     font-size: 12px;
     border: 1px solid #e7e7e9;
-    padding: 10px 15px;
-    
+    padding: 10px 10px;
+    font-weight: 400;
+    border-radius: 50px;
 }
 .box2{
     width: 50%;
