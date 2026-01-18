@@ -157,3 +157,20 @@ height: 100%;
     width:100%;
     border-radius: 20px;
 }
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+}
+.card-box{
+    height: 270px;
+    width: 360px;
+}
+.card-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
