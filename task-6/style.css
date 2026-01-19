@@ -191,3 +191,12 @@ height: 100%;
   font-size: 16px;
   color: white;
 }
+.bottom i {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.botton_i {
+  display: flex;
+  gap: 10px;
+}
